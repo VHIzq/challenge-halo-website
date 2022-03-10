@@ -136,6 +136,38 @@ header{
   background-position: center center;
 }
 
+/* 
+*Banner
+*/
+#banner{
+  position: absolute;
+  width: 500px;
+  padding: 40px;
+  font-size: 1.8em;
+  text-align: center;
+  z-index: 100;
+  top: 200px;
+  right: 100px;
+
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.green-button{
+  border: 0;
+  display: inline-flex;
+  align-items: center;
+  font-size: 14px;
+  padding: 10px 40px;
+  background-color: greenyellow;
+  color: black;
+  font-weight: bolder;
+  text-decoration: none;
+}
+.green-button:hover{
+  background-color: rgb(141, 179, 86);
+}
+
 
 
 
